@@ -35,7 +35,7 @@ For managing bank accounts, we have used an SQL database file to manage all data
 - **Deposit Money**
 - **Withdraw Money**
 - **Balance Inquiry**
-![Alt text](Screenshots\001.jpg)
+![Alt text](Screenshots/001.jpg)
 
 ## Source Code and Working in Detail
 Below are all the source codes with the updated database path:
