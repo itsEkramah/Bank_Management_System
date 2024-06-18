@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug/bank_management_system_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system",
+	"CMAKE_SOURCE_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system",
+	"INCLUDE_DIR" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug/bank_management_system_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/logo.1.htm",
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/download.jpeg",
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/logo.jpeg",
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/images (3).jpeg",
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/PINK.jpeg",
+		"C:/Users/MK/OneDrive/Documents/bank_management_system/logo_2.jpeg"
+	],
+	"LOCK_FILE" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug/CMakeFiles/bank_management_system_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "D:/RAMLAH/QT/6.7.1/llvm-mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/MK/OneDrive/Documents/bank_management_system/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug/CMakeFiles/bank_management_system_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/MK/OneDrive/Documents/bank_management_system/resource.qrc",
+	"VERBOSITY" : 0
+}
