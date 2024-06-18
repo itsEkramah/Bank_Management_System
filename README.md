@@ -35,7 +35,7 @@ For managing bank accounts, we have used an SQL database file to manage all data
 - **Deposit Money**
 - **Withdraw Money**
 - **Balance Inquiry**
-![Alt text](Screenshots/001.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/001.jpg)
 
 ## Source Code and Working in Detail
 Below are all the source codes with the updated database path:
@@ -97,7 +97,7 @@ void CreateAccount::on_savebtn_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\002.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/002.jpg)
 
 #### Working:
 This button works when the user clicks on it and enters data like their name, CNIC, phone number, and other details. The application writes all data to the defined database file. To make this function work, we have added an SQL database file to save data of all bank accounts.
@@ -185,7 +185,7 @@ void Deposit::on_pushButton_2_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\004.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/004.jpg)
 #### Working:
 This button functions when the user clicks on the deposit button and inputs the account number and deposit amount. The application opens the database file, updates the current balance, and displays a success message using `QMessageBox`.
 
@@ -281,7 +281,7 @@ void Withdraw::on_pushButton_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\005.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/005.jpg)
 
 #### Working:
 This button functions when the user clicks on the withdraw button and inputs the account number and withdrawal amount. The application opens the database file, updates the current balance, and displays a success message using `QMessageBox`.
@@ -348,7 +348,7 @@ void BalanceInquiry::on_pushButton_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\007.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/007.jpg)
 
 #### Working:
 This button functions when the user clicks on the balance inquiry button and inputs the account number. The application opens the database file, retrieves the current balance, and displays it using `QMessageBox`.
@@ -419,7 +419,7 @@ void ViewAllAccounts::on_pushButton_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\006.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/006.jpg)
 #### Working:
 This button functions when the user clicks on the view all accounts button. The application opens the database file, retrieves all accounts, and displays them in a table view using `QStandardItemModel`.
 
@@ -493,9 +493,11 @@ void ViewAccount::on_pushButton_clicked()
     database.close();
 }
 ```
-![Alt text](Screenshots\002.jpg)
+![Alt text](https://github.com/itsEkramah/Bank_Management_System/blob/main/Bank_Management_System/Bank_Management_System/Screenshots/002.jpg)
+
 #### Working:
 This button functions when the user clicks on the view specific account button and inputs the account number. The application opens the database file, retrieves the account details, and displays them using `QMessageBox`.
+
 
 #### Running the Bank Management System Project
 
@@ -536,4 +538,7 @@ You can run the Bank Management System project in two ways:
 
 
 ## Conclusion
-In conclusion, the Bank Management System developed using C++ with an integrated GUI and file handling capabilities effectively meets the objectives of streamlining banking operations, ensuring data security, and enhancing user experience. The system's architecture and design principles, combined with rigorous testing and quality assurance measures, ensure reliable performance and usability. This project demonstrates the potential for further expansion and scalability, offering a robust solution for modern banking needs.
+
+The development of the Bank Management System using C++ with a Graphical User Interface (GUI) and file handling capabilities marks a significant stride towards modernizing banking operations. This project aimed to streamline core banking functions such as account management, transaction processing, and customer information management. The integration of Qt for GUI development and SQLite for database management ensured a robust and user-friendly application.
+Object-oriented programming principles were instrumental in structuring the system's architecture, promoting code reusability and maintainability. Through the implementation of classes and inheritance, the project achieved a modular design that facilitated future scalability and feature expansion.
+The project's success lies in its ability to enhance operational efficiency, ensure data security through file handling, and provide a seamless user experience. It underscores the importance of leveraging advanced technologies to meet the evolving demands of the banking sector while adhering to high standards of software reliability and usability. This project not only showcases technical proficiency but also exemplifies innovation in digital banking solutions.
